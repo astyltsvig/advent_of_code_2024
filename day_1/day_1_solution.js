@@ -24,3 +24,7 @@ for (let i = 0; i < leftList.length; i++) {
 }
 
 console.log('Result of assignment for day 1 is: ' + difference)
+
+// Save the output to result.txt
+fs.writeFileSync('./result.txt', difference)
+// Run the code with node day_1_solution.js
